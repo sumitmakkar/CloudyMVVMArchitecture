@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9328F05C232F254F00BD415D /* SettingsViewTimeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9328F05B232F254F00BD415D /* SettingsViewTimeViewModelTests.swift */; };
 		93291752232CBC3A00F20594 /* DayViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93291751232CBC3A00F20594 /* DayViewViewModel.swift */; };
 		93291754232CE11800F20594 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93291753232CE11800F20594 /* UIImage.swift */; };
 		93291756232D018F00F20594 /* WeekViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93291755232D018F00F20594 /* WeekViewViewModel.swift */; };
@@ -16,7 +17,6 @@
 		93387B19232E3DED005B6F28 /* SettingsRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93387B18232E3DED005B6F28 /* SettingsRepresentable.swift */; };
 		93387B1B232E5CCD005B6F28 /* WeatherDayViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93387B1A232E5CCD005B6F28 /* WeatherDayViewViewModel.swift */; };
 		93387B1E232E63BF005B6F28 /* WeatherDayRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93387B1D232E63BF005B6F28 /* WeatherDayRepresentable.swift */; };
-		93387B26232E7202005B6F28 /* CloudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93387B25232E7202005B6F28 /* CloudyTests.swift */; };
 		CC08B9DB1DA206EE00754A85 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC08B9DA1DA206EE00754A85 /* SettingsViewController.swift */; };
 		CC08B9DE1DA20DB400754A85 /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC08B9DD1DA20DB400754A85 /* SettingsTableViewCell.swift */; };
 		CC08B9E11DA2169400754A85 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC08B9E01DA2169400754A85 /* UserDefaults.swift */; };
@@ -54,6 +54,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9328F05B232F254F00BD415D /* SettingsViewTimeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewTimeViewModelTests.swift; sourceTree = "<group>"; };
 		93291751232CBC3A00F20594 /* DayViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayViewViewModel.swift; sourceTree = "<group>"; };
 		93291753232CE11800F20594 /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 		93291755232D018F00F20594 /* WeekViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekViewViewModel.swift; sourceTree = "<group>"; };
@@ -64,7 +65,6 @@
 		93387B1A232E5CCD005B6F28 /* WeatherDayViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDayViewViewModel.swift; sourceTree = "<group>"; };
 		93387B1D232E63BF005B6F28 /* WeatherDayRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDayRepresentable.swift; sourceTree = "<group>"; };
 		93387B23232E7202005B6F28 /* CloudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		93387B25232E7202005B6F28 /* CloudyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudyTests.swift; sourceTree = "<group>"; };
 		93387B27232E7202005B6F28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC08B9DA1DA206EE00754A85 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		CC08B9DD1DA20DB400754A85 /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
@@ -159,7 +159,7 @@
 		93387B24232E7202005B6F28 /* CloudyTests */ = {
 			isa = PBXGroup;
 			children = (
-				93387B25232E7202005B6F28 /* CloudyTests.swift */,
+				9328F05B232F254F00BD415D /* SettingsViewTimeViewModelTests.swift */,
 				9328F05A232F212A00BD415D /* Supporting Files */,
 			);
 			path = CloudyTests;
@@ -431,6 +431,7 @@
 					93387B22232E7202005B6F28 = {
 						CreatedOnToolsVersion = 10.3;
 						DevelopmentTeam = KH9429UASR;
+						LastSwiftMigration = 1030;
 						ProvisioningStyle = Automatic;
 						TestTargetID = CC89B4161D9FE314006BFD6E;
 					};
@@ -486,7 +487,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93387B26232E7202005B6F28 /* CloudyTests.swift in Sources */,
+				9328F05C232F254F00BD415D /* SettingsViewTimeViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -544,6 +545,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
@@ -559,6 +561,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = SumitiOS.CloudyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cloudy.app/Cloudy";
@@ -571,6 +574,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
