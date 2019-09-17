@@ -53,6 +53,8 @@ final class DataManager {
         } else if let data = data, let response = response as? HTTPURLResponse {
             if response.statusCode == 200 {
                 do {
+//                    let json = try JSONSerialization.jsonObject(with: data, options: [])// as? [String : Any]
+//                    print(json)
                     // Decode JSON
                     let weatherData: WeatherData = try JSONDecoder.decode(data: data)
 
